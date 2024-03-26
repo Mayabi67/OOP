@@ -52,7 +52,6 @@ void main() {
     dog.eat();
     dog.printInfo();
   }
-
   // Initialize a dog from a file
   Dog dogFromFile = initializeDogFromFile('dog_data.txt');
   dogFromFile.eat();
